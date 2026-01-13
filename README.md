@@ -1,5 +1,14 @@
 ## Install kind on linux:
 
+Official documentation: https://kind.sigs.k8s.io/docs/user/quick-start/
+
+We have to install kind, and install kubectl for communication
+Here I'am using shell scripting
+Create a file (eg: kind.sh), paste the below commands
+give execute permissions (chmod 764 kind.sh)
+then ./kind.sh
+
+
 ```
 
 #!/bin/bash
@@ -40,6 +49,4 @@ nodes:
 
 ```
 
-
-![Screenshot 2025-01-28 155902](https://github.com/user-attachments/assets/addf89a1-9316-4781-8178-1f3942eb87d9)
 
