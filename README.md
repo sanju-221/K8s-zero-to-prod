@@ -1,8 +1,10 @@
 Kubernetes (K8s) – Introduction
+
+Official documentation: https://kubernetes.io/docs/home/
+
 What is Kubernetes?
 
-Kubernetes, commonly known as K8s, is an open-source container orchestration platform originally developed by Google and now maintained by the Cloud Native Computing Foundation (CNCF). It helps you deploy, manage, scale, and operate containerized applications efficiently.
-In simple terms, Kubernetes takes care of running your containers reliably in production environments.
+Kubernetes, commonly known as K8s, is an open-source container orchestration platform originally developed by Google and now maintained by the Cloud Native Computing Foundation (CNCF). It helps us deploy, manage, scale, and operate containerized applications efficiently.
 
 Why Kubernetes?
 
@@ -31,3 +33,11 @@ Kubernetes is widely used for:
 #CI/CD pipelines
 #High-traffic web applications
 #Hybrid and multi-cloud deployments
+
+Cluster Architecture
+
+<img width="688" height="435" alt="K8s architecture" src="https://github.com/user-attachments/assets/5ac87796-a821-41b4-b8e0-4050a4d196e3" />
+
+A Kubernetes cluster consists of a control plane plus a set of worker machines, called nodes, that run containerized applications. Every cluster needs at least one worker node in order to run Pods.
+
+
