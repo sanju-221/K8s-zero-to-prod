@@ -36,9 +36,11 @@ Then we need to configure yaml file for the cluster creation
 
 ## Multi-node clusters
 
-You can also have a cluster with multiple control-plane & worker nodes, create a config file.
+You can also have a cluster with multiple control-plane & worker nodes, create a config file (eg: config.yaml).
 
 Refer: https://kind.sigs.k8s.io/docs/user/quick-start/
+
+For the latest kind image refer docker hub: https://hub.docker.com/r/kindest/node/tags
 
 ```
 vi config.yaml
@@ -62,5 +64,12 @@ nodes:
     protocol: tcp
 
 ```
+Now, create the kind cluster
+
+```
+kind create cluster --name=my-kind-cluster --config=config.yaml
+```
+👏👏👏
+
 
 
