@@ -25,11 +25,24 @@ sudo mv ./kubectl /usr/local/bin/kubectl
 echo "kind & kubectl Successfully Installed!"
 
 ```
+After this we can verify the versions of kind and kubectl
+
+As the name indicates, we have to install docker 
+
+```
+sudo apt-get install docker.io
+```
+Then we need to configure yaml file for the cluster creation
 
 ## Multi-node clusters
 
 You can also have a cluster with multiple control-plane & worker nodes, create a config file.
 
+Refer: https://kind.sigs.k8s.io/docs/user/quick-start/
+
+```
+vi config.yaml
+```
 ```
 
 kind: Cluster
