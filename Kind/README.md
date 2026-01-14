@@ -46,18 +46,15 @@ For the latest kind image refer docker hub: https://hub.docker.com/r/kindest/nod
 vi config.yaml
 ```
 ```
-
 kind: Cluster
 apiVersion: kind.x-k8s.io/v1alpha4
 nodes:
 - role: control-plane
-  image: kindest/node:v1.32.1
+  image: kindest/node:v1.35.0
 - role: worker
-  image: kindest/node:v1.32.1
+  image: kindest/node:v1.35.0
 - role: worker
-  image: kindest/node:v1.32.1
-- role: worker
-  image: kindest/node:v1.32.1
+  image: kindest/node:v1.35.0
   extraPortMappings:
   - containerPort: 80
     hostPort: 80
@@ -70,6 +67,13 @@ Now, create the kind cluster
 kind create cluster --name=my-kind-cluster --config=config.yaml
 ```
 👏👏👏
+
+<img width="1648" height="1032" alt="Kind_cluster" src="https://github.com/user-attachments/assets/83e3685c-72a2-448a-8538-8d4294419b91" />
+
+We have successfully created Kind-cluster
+
+
+
 
 
 
