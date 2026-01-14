@@ -38,6 +38,11 @@ Cluster Architecture
 
 <img width="688" height="435" alt="K8s architecture" src="https://github.com/user-attachments/assets/5ac87796-a821-41b4-b8e0-4050a4d196e3" />
 
-A Kubernetes cluster consists of a control plane plus a set of worker machines, called nodes, that run containerized applications. Every cluster needs at least one worker node in order to run Pods.
+A Kubernetes cluster is made up of a control plane and a group of worker machines, called nodes, that host containerized workloads. At least one worker node is required for Pods to run. The Kubernetes architecture follows a clustered model where the control plane and worker nodes work together to constantly align the system’s desired state (what you define in YAML) with the actual state (what is currently running in the cluster).
 
+Control plane = the “brain” that stores state and makes decisions
+
+Worker nodes = the “muscles” that actually run containers (in Pods)
+
+Everything communicates through the Kubernetes API and persists in etcd
 
