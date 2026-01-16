@@ -72,7 +72,9 @@ kind create cluster --name=my-kind-cluster --config=config.yaml
 
 We have successfully created Kind-cluster
 
+Phase -2 
 
+We can install nginx servers on kind
 
 
 
