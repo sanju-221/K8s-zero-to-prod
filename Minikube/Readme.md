@@ -1,5 +1,7 @@
 Install Minikube on Linux
 
+It is single node cluster setup, not used in production. Used in test enviornments or R&D.
+
 Refer: https://minikube.sigs.k8s.io/docs/start/?arch=%2Flinux%2Fx86-64%2Fstable%2Fbinary+download
 
 ```
