@@ -1,5 +1,7 @@
-KIND - Kubernetes IN Docker
-## Install kind on linux:
+KIND
+
+kind (Kubernetes in Docker) is a tool designed for running local Kubernetes clusters using Docker container "nodes."
+## Install kind on linux server:
 
 Official documentation: https://kind.sigs.k8s.io/docs/user/quick-start/
 
