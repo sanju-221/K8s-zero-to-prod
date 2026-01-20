@@ -46,3 +46,28 @@ Worker nodes = the “muscles” that actually run containers (in Pods)
 
 Everything communicates through the Kubernetes API and persists in etcd
 
+🔗Control Plane Components
+
+The control plane handles global decisions and includes:
+
+👉API Server (kube-apiserver): Front-end for the Kubernetes API, validating and processing requests.
+
+👉etcd: Distributed key-value store for all cluster data, ensuring consistency.
+
+👉Scheduler (kube-scheduler): Assigns pods to suitable nodes based on resource needs and policies.
+
+👉Controller Manager (kube-controller-manager): Runs controllers like ReplicaSet to maintain desired state.
+
+
+🔗Node Components
+
+Worker nodes run pods and include:
+
+👉Kubelet: Agent ensuring containers are running in pods as specified.
+
+👉Kube-proxy: Manages network rules for service discovery and load balancing.
+
+👉Container Runtime: Executes containers (e.g., Docker, containerd).
+
+Pods form the smallest deployable unit, containing one or more containers sharing storage and network. Services provide stable networking, and Deployments manage pod replicas for scaling.
+​
