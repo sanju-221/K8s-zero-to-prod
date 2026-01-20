@@ -1,6 +1,8 @@
-Install Minikube on Linux
+##Install Minikube on Linux server
 
 It is single node cluster setup, not used in production. Used in test enviornments or R&D.
+This single node runs both the control plane components (like API server, etcd, and scheduler) and worker components on the same machine
+Minikube requires Docker pre-installed on Linux servers when using the Docker driver. 
 
 Refer: https://minikube.sigs.k8s.io/docs/start/?arch=%2Flinux%2Fx86-64%2Fstable%2Fbinary+download
 
