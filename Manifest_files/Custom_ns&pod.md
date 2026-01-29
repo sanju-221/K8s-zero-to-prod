@@ -19,6 +19,10 @@ To run:
 ```
 kubectl apply -f <filename.yml>
 ```
+To verify:
+```
+kubectl get pod -n <pod_name>
+```
 
 To delete:
 ```
