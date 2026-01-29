@@ -14,3 +14,12 @@ spec:
     ports:
     - containerPort: 80
 ```
+To run:
+
+```
+kubectl apply -f <filename.yml>
+```
+To verify: 
+```
+kubectl get pods -o wide
+```
