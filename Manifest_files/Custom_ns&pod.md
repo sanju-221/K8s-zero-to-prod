@@ -28,3 +28,11 @@ To delete:
 ```
 kubectl delete -f <filename.yml>
 ```
+To access the container shell in a pod that has custom namespace
+```
+kubectl exec -it nginx-pod -n my-app-ns --sh
+```
+We have installed nginx, but it can't be access the nginx home page from our web browser. (For that we have to set up service) We can see the nginx home page,
+```
+curl 127.0.0.1
+```
