@@ -31,3 +31,5 @@ Use the command to list the pods and their IP address:
 ```
 kubectl get pods -o wide
 ```
+<img width="1250" height="110" alt="pod" src="https://github.com/user-attachments/assets/56c8dc28-4f2d-42aa-ae7d-6e2c0a770e90" />
+
