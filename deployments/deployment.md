@@ -55,5 +55,7 @@ Undo Update:
 kubectl rollout undo deployment nginx-deployment
 ```
 
+<img width="1070" height="110" alt="deploy" src="https://github.com/user-attachments/assets/9d9e83f7-44b2-4d85-924f-8a87996ed6e1" />
+
 <img width="2256" height="354" alt="deployment" src="https://github.com/user-attachments/assets/c6b04c2e-5f74-438a-a794-8036a8bdeb92" />
 
