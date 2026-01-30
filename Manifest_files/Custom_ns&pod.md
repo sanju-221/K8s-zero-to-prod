@@ -28,7 +28,7 @@ To delete:
 ```
 kubectl delete -f <filename.yml>
 ```
-To access the container shell in a pod that has custom namespace (for kubeadm we have to add the port tcp - 10250, in security group)
+To access the container shell in a pod that has custom namespace (for kubeadm enable the port tcp - 10250, in security group)
 ```
 kubectl exec -it nginx-pod -n my-app-ns --sh
 ```
