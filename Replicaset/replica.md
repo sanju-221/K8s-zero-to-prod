@@ -1,5 +1,7 @@
 Relicaset follows the rule assign to it, we can't scale the pods
 
+Refer: https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/
+
 To create a replicaset:
 ```
 apiVersion: apps/v1
