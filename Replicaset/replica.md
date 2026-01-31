@@ -1,4 +1,4 @@
-Relicaset follows the rule assign to it
+Relicaset follows the rule assign to it, we can't scale the pods
 
 To create a replicaset:
 ```
@@ -25,5 +25,8 @@ spec:
         image: nginx:alpine
         ports:
         - containerPort: 80
-
 ```
+
+<img width="1310" height="390" alt="replica" src="https://github.com/user-attachments/assets/c954170b-1e4c-4c81-ad31-49391398ad10" />
+
+
