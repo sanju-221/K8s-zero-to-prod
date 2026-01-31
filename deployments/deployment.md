@@ -69,5 +69,8 @@ To access the container in pod:
 ```
 kubectl exec -it <pod_name> -n nginx-ns -- sh
 ```
-
+To show the labels:
+```
+kubectl get pods -n nginx-ns --show-labels
+```
 
