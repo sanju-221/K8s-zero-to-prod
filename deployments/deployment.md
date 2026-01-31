@@ -61,9 +61,13 @@ kubectl rollout undo deployment nginx-deployment
 
 <img width="1504" height="616" alt="scale-deploy" src="https://github.com/user-attachments/assets/a993af1d-8c68-4ae3-9c78-a19ed7fd9aca" />
 
-To change the image of the container: custom namespace nginx-ns (here from nginx-alpine to nginx 1.29.4-alpine)
+To change the image of the container: custom namespace nginx-ns (here from nginx-alpine to nginx 1.28.1-alpine)
 ```
-kubectl set image deployment nginx-deployement -n nginx-ns nginx=nginx:1.29.4-alpine
+kubectl set image deployment nginx-deployment -n nginx-ns nginx=nginx:1.28.1-alpine
+```
+To access the container in pod:
+```
+kubectl exec -it <pod_name> -n nginx-ns -- sh
 ```
 
 
