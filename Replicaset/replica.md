@@ -31,4 +31,8 @@ spec:
 
 <img width="1310" height="390" alt="replica" src="https://github.com/user-attachments/assets/c954170b-1e4c-4c81-ad31-49391398ad10" />
 
+To apply:
+```
+kubectl apply -f replicaset.yml
+```
 
