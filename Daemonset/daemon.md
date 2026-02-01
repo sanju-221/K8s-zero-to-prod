@@ -36,7 +36,7 @@ kubectl apply -f daemon.yml
 ```
 <img width="2020" height="214" alt="daemon-1" src="https://github.com/user-attachments/assets/2e719f38-643c-4a07-b307-b931e29ae609" />
 
-Two worker nodes are running, we didn't specify the replicas in the yml file, the daemonset will install a pods on each worker node.
+Two worker nodes are running, we didn't specify the replicas in the yml file - the daemonset will install the pods on each worker node.
 
 <img width="2334" height="158" alt="nodes" src="https://github.com/user-attachments/assets/6848c48e-fc97-4391-90bf-4fce9621e943" />
 
