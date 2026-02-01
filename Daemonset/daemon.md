@@ -31,4 +31,6 @@ spec:
          ports:
          - containerPort: 80
 ```
-
+```
+kubectl apply -f daemon.yml
+```
