@@ -11,7 +11,7 @@ apiVersion: batch/v1
 kind: Job
 metadata:
   name: demo-job
-  namespace: ngin-ns
+  namespace: nginx-ns
 spec:
   complesions: 1
   parallelism: 1
