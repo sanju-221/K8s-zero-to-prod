@@ -26,17 +26,15 @@ spec:
         app: nginx
     spec:
       containers:
-      -  name: my-nginx
-         image: nginx:alpine
-         ports:
-         - containerPort: 80
+      - name: my-nginx
+        image: nginx:alpine
+        ports:
+        - containerPort: 80
 ```
 ```
 kubectl apply -f daemon.yml
 ```
-<img width="2020" height="214" alt="daemon-1" src="https://github.com/user-attachments/assets/2e719f38-643c-4a07-b307-b931e29ae609" />
-
-<img width="1164" height="180" alt="worker" src="https://github.com/user-attachments/assets/d8dde56e-21ee-4862-b80f-87ab5f1e0394" />
+<img width="1818" height="488" alt="daemonset" src="https://github.com/user-attachments/assets/2090ffef-4a87-4b75-b826-310065f95378" />
 
 Two worker nodes are running, we didn't specify the replicas in the yml file - the daemonset will install the pods on each worker node.
 
