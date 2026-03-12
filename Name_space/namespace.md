@@ -1,3 +1,9 @@
+NameSpace
+
+What is Name-space?
+
+A way to organize and separate resources inside the same kubernetes cluster.
+
 Manifest file for the namespace:
 
 Refer: https://kubernetes.io/docs/tutorials/cluster-management/namespaces-walkthrough/
