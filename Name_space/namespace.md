@@ -2,7 +2,20 @@ NameSpace
 
 What is Name-space?
 
-A way to organize and separate resources inside the same kubernetes cluster.
+A way to organize and isolate resources inside the same kubernetes cluster.
+
+To create a namespace:
+```
+kubectl create namespace <give a name to the ns>
+```
+To list the namespace:
+```
+kubectl get namespaces
+```
+To run a pod in a namespace (eg: nginx)
+```
+kubectl run nginx --image=nginx:alpine -n <namespace name>
+```
 
 Manifest file for the namespace:
 
