@@ -34,3 +34,7 @@ To get services:
 ```
 kubectl get svc
 ```
+To get service info:
+```
+kubectl describe svc <service name>
+```
