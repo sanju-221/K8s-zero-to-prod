@@ -30,3 +30,7 @@ spec:
       port: 80
       targetPort: 80
 ```
+To get services:
+```
+kubectl get svc
+```
