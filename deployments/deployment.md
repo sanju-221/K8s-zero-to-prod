@@ -13,6 +13,8 @@ Scaling: You can instantly scale your app from 2 replicas to 20 by changing one 
 
 Manifest file eg: deplyment.yaml
 if we have custom namespace, we have to mention it in the yml file - (metadata - namespace)
+
+By default, Kubernetes sets the deployment startegy to RollingUpdate when no strategy type is updated. 
 ```
 apiVersion: apps/v1
 kind: Deployment
