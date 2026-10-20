@@ -35,4 +35,12 @@ To apply:
 ```
 kubectl apply -f replicaset.yml
 ```
+To scale up/down pods:
+```
+kubectl scale rs <replicaset name> --replicas=4
+```
+To find label:
+```
+kubectl get pods --show-labels
+```
 
