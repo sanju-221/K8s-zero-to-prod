@@ -46,6 +46,10 @@ Check Status:
 ```
 kubectl get deployments
 ```
+To know about the deployment details:
+```
+kubectl describe deployment <deployment name>
+```
 Scale Up/Down:
 ```
 kubectl scale deployment nginx-deployment --replicas=3
