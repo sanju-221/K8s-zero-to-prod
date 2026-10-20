@@ -79,4 +79,7 @@ To show the labels:
 ```
 kubectl get pods -n nginx-ns --show-labels
 ```
-
+To delete deployment:
+```
+kubectl delete deployment <deployment name>
+```
