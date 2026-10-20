@@ -46,7 +46,7 @@ Check Status:
 ```
 kubectl get deployments
 ```
-To know about the deployment details:
+To know about the deployment details: (rolling strategies, replicas, etc)
 ```
 kubectl describe deployment <deployment name>
 ```
