@@ -18,10 +18,10 @@ Load Balancing: Distributes traffic across healthy Pods transparently.
 This decouples clients from Pod volatility, maintaining high availability.
 
 ```
+apiVersion: v1
 kind: Service
 metadata:
   name: nginx-svc
-  namespace: nginx-ns
 spec:
   selector:
     app: nginx
